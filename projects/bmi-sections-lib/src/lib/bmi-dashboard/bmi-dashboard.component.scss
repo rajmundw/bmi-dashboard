@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+lib-bmi-dashboard {
+    .bmi-dashboard  {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: row;
+        > lib-bmi-dashboard-section {
+            height: 100%;
+            width:calc( 100% / 7);
+            justify-content: center;
+        }
+    }
+    .bmi-dashboard-legend {
+        padding-left: calc( 100% / 7 * 0.15);
+        margin-top: 50px
+    }
+}

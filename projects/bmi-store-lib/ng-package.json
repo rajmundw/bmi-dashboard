@@ -1,0 +1,18 @@
+{
+  "$schema": "../../node_modules/ng-packagr/ng-package.schema.json",
+  "dest": "../../dist/bmi-store-lib",
+  "deleteDestPath": false,
+  "lib": {
+    "entryFile": "src/public_api.ts",
+    "umdModuleIds": {
+      "lgx-common-lib": "lgxCommon",
+      "lgx-rest-api-lib": "lgxRestApi",
+      "lgx-types-lib": "lgxTypes",
+      "lodash": "_",
+      "moment": "moment",
+      "ngrx-store-localstorage": "ngrxStoreLocalStorage",
+      "reduce-reducers": "reduceReducers",
+      "angular2-uuid": "angular2Uuid"
+    }
+  }
+}

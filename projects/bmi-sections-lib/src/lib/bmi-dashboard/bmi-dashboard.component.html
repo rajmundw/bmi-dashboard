@@ -1,0 +1,14 @@
+<div class="bmi-dashboard">
+    <!-- <lib-bmi-dashboard-section *ngFor="let singleDetail of personalDetails" [personalDetail]="singleDetail">
+
+    </lib-bmi-dashboard-section> -->
+
+    <lib-bmi-dashboard-section *ngFor="let singleDetail of presonalInfo$ |async" [personalDetail]="singleDetail">
+
+    </lib-bmi-dashboard-section>
+</div>
+<div class="bmi-dashboard-legend">
+    <lib-bmi-dashboard-legend>
+
+    </lib-bmi-dashboard-legend>
+</div>

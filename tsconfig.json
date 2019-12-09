@@ -1,0 +1,68 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "./dist/out-tsc",
+    "sourceMap": true,
+    "declaration": false,
+    "downlevelIteration": true,
+    "experimentalDecorators": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "target": "es2015",
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "lib": [
+      "es2018",
+      "dom"
+    ],
+    "paths": {
+      "bmi-sections-lib": [
+        "dist/bmi-sections-lib",
+        "../../dist/bmi-sections-lib",
+        "../../../dist/bmi-sections-lib"
+      ],
+      "bmi-sections-lib/*": [
+        "dist/bmi-sections-lib/*",
+        "../../dist/bmi-sections-lib/*",
+        "../../../dist/bmi-sections-lib/*"
+      ],
+      "bmi-api-lib": [
+        "dist/bmi-api-lib",
+        "../../dist/bmi-api-lib",
+        "../../../dist/bmi-api-lib"
+      ],
+      "bmi-api-lib/*": [
+        "dist/bmi-api-lib/*",
+        "../../dist/bmi-api-lib/*",
+        "../../../dist/bmi-api-lib/*"
+      ],
+      "bmi-store-lib": [
+        "dist/bmi-store-lib",
+        "../../dist/bmi-store-lib",
+        "../../../dist/bmi-store-lib"
+      ],
+      "bmi-store-lib/*": [
+        "dist/bmi-store-lib/*",
+        "../../dist/bmi-store-lib/*",
+        "../../../dist/bmi-store-lib/*"
+      ],
+      "bmi-common-lib": [
+        "dist/bmi-common-lib",
+        "../../dist/bmi-common-lib",
+        "../../../dist/bmi-common-lib"
+      ],
+      "bmi-common-lib/*": [
+        "dist/bmi-common-lib/*",
+        "../../dist/bmi-common-lib/*",
+        "../../../dist/bmi-common-lib/*"
+      ]
+    }
+  },
+  "angularCompilerOptions": {
+    "fullTemplateTypeCheck": true,
+    "strictInjectionParameters": true
+  }
+}

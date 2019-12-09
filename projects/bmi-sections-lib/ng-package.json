@@ -1,0 +1,25 @@
+{
+  "$schema": "../../node_modules/ng-packagr/ng-package.schema.json",
+  "dest": "../../dist/bmi-sections-lib",
+  "deleteDestPath": false,
+  "lib": {
+    "entryFile": "src/public_api.ts",
+    "umdModuleIds": {
+      "lgx-common-lib": "lgxCommon",
+      "lgx-core-lib": "lgxCore",
+      "lgx-design-lib": "lgxDesign",
+      "lgx-features-lib": "lgxFeatures",
+      "lgx-forms-lib": "lgxForms",
+      "lgx-layout-lib": "lgxLayout",
+      "lgx-store-lib": "lgxStore",
+      "lgx-rest-api-lib": "lgxRestApi",
+      "lgx-types-lib": "lgxTypes",
+      "@ngrx/store": "ngrxStore",
+      "ngx-logger": "ngxLogger",
+      "lodash": "_",
+      "moment": "moment",
+      "@ngx-translate/core": "ngxTranslateCore",
+      "ng-inline-svg": "ngInlineSvg"
+    }
+  }
+}

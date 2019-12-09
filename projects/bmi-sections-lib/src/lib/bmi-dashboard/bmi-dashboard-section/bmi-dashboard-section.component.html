@@ -1,0 +1,10 @@
+<div    class="bmi-dashboard-section-title"
+        [innerText]="personalDetail.title">
+    
+</div>
+
+<div    class="bmi-dashboard-section-content"
+        *ngFor="let singleDetail of personalDetail.people"
+        [innerText]="singleDetail.name"
+        [ngStyle]="singleDetail.style">
+</div>

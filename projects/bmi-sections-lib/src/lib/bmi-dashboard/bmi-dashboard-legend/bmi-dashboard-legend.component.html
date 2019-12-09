@@ -1,0 +1,9 @@
+<div class="bmi-dashboard-legend-container">
+    <div class="legend-row" *ngFor="let row of legendeModel">
+        <div    class="legend-color" [ngStyle]="{background: row.color}">
+        </div>
+        <div    class="legend-text">
+            {{row.minValue}} - {{row.maxValue}}
+        </div>
+    </div>
+</div>

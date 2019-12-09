@@ -1,0 +1,21 @@
+.bmi-dashboard-legend-container {
+    margin-top: 10px;
+    margin-left: 10px;
+    
+    .legend-row{
+        display: flex;
+        flex-direction: row;
+        align-items: center; 
+        height: 50px;
+
+        .legend-color {
+            height: 20px;
+            width: 20px;
+            margin-right: 20px;
+            border-radius: 50%;
+        }
+        .legend-text {
+            font-size: 20px
+        }
+    }
+}
