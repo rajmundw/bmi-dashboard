@@ -1,6 +1,5 @@
 
 <h1>BmiDashboard</h1> </br>
-<p>Application dispaly dashboard with /p>
 <h2>Technology :</h2>
 <ul>
 		<li>Angular 8</li>
