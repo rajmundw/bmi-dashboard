@@ -1,39 +1,29 @@
 
 <h1>BmiDashboard</h1> </br>
-<p>Thanks to this application you can find photo by keyword and read some details connected with them and sort by this details</p>
+<p>Application dispaly dashboard with /p>
 <h2>Technology :</h2>
 <ul>
-		<li>React.js</li>
-    <li>JavaScript ES6,ES7</li>
-    <li>JSX</li>
-		<li>HTML5</li>
+		<li>Angular 8</li>
+    <li>TypeScript</li>
+    <li>NgRx</li>
+		<li>RxJS</li>
     <li>SASS</li>
-		<li>CSS3</li>
-    <li>RWD</li>
+		<li>Webpack</li>
     <li>REST API</li>
 		<li>NPM</li>
 </ul>
 
 <h2>Instalation:</h2>
 <ul>
-	<li>You have to open your console inside main folder with pliks and write in it "npm i"
+	<li>Firstly install npm by command "npm i"
 		</li>
-	<li>To run file you have to write in console "npm run build". Aplication will start</li>
+	<li>Secondly open install.ps1 file and copy content and paste to terminal </li>
 </ul>
 
 <h2>Functionalities:</h2>
 <ul>
-	<li>List of elements</li>
- 	<li>Changing cateogries elements from history</li>
-	<li>Sort by details</li>
- 	<li>Possibility to delete elements</li>
-	<li>Possibility to delete categories</li>
- 	<li>Pagination</li>
-  <li>Zoom photos</li>
-</ul>
-
-<h2>Live:</h2>
-<ul>
-	<li>https://rajmundw.github.io/slider/</li>
-	<li>Preferred way of play application is installed on your devices</li>
+	<li>List of person form REST API</li>
+ 	<li>Sorting column by BBY</li>
+	<li>Divided people to column by BBY</li>
+ 	<li>BMI has different categories and it is visible on legend and dashboard</li>
 </ul>
