@@ -23,7 +23,7 @@
     "@ngrx/effects": "^8.5.2",
     "@ngrx/store": "^8.5.2",
     "@ngrx/store-devtools": "^8.5.2",
-    "ng-packagr": "^5.7.1",
+    "ng-packagr": "^10.1.1",
     "rxjs": "~6.4.0",
     "tsickle": "^0.37.1",
     "tslib": "^1.10.0",
